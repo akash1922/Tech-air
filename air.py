@@ -2,6 +2,7 @@ from cvzone.HandTrackingModule import HandDetector
 import cv2
 import os
 import numpy as np
+import mediapipe as mp
 
 # Parameters
 width, height = 1280, 720
